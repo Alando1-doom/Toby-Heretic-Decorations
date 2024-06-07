@@ -1,0 +1,15 @@
+ACTOR WallTorch_Toby replaces WallTorch
+{
+	Game Heretic
+	Radius 6
+	Height 16
+	+NOGRAVITY
+	+FIXMAPTHINGPOS
+	States
+	{
+	Spawn:
+		WTRH A 6 Bright A_PlaySoundEx("decoration/walltorch", "SoundSlot5", 1, 0)
+		WTRH BC 6 Bright
+		Loop
+	}
+}

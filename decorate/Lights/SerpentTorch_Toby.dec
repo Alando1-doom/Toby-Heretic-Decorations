@@ -1,0 +1,14 @@
+ACTOR SerpentTorch_Toby replaces SerpentTorch
+{
+	Game Heretic
+	Radius 12
+	Height 54
+	+SOLID
+	States
+	{
+	Spawn:
+		SRTC A 4 Bright A_PlaySoundEx("decoration/serpenttorch", "SoundSlot5", 1, 0)
+		SRTC BC 4 Bright
+		Loop
+	}
+}

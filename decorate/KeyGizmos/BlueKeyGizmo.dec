@@ -1,0 +1,16 @@
+ACTOR KeyGizmoBlue_Toby replaces KeyGizmoBlue
+{
+	Game Heretic
+	Radius 16
+	Height 50
+	+SOLID
+	States
+	{
+	Spawn:
+		KGZ1 A 1 
+		KGZ1 A 1 A_SpawnItemEx("KeyGizmoFloatBlue", 0, 0, 60)
+		KGZ1 A 1
+		KGZ1 A 1 A_PlaySoundEx("decoration/markeramb", "Auto", 1, 0)
+		Goto Spawn+3
+	}
+}

@@ -1,0 +1,14 @@
+ACTOR Chandelier_Toby replaces Chandelier
+{
+	Game Heretic
+	Radius 20
+	Height 60
+	+SPAWNCEILING
+	+NOGRAVITY
+	States
+	{
+	Spawn:
+		CHDL ABC 4 Bright
+		Loop
+	}
+}

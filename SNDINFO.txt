@@ -1,0 +1,19 @@
+$rolloff decoration/walltorch	linear	40 320
+decoration/walltorch				walltrch
+$rolloff decoration/serpenttorch	linear	64 320
+decoration/serpenttorch			serptrch
+$rolloff decoration/brazier	linear	80 320
+decoration/brazier					brazier
+
+$rolloff decoration/pod		linear	48 384
+$rolloff pod/id1		linear	48 384
+$rolloff pod/id2		linear	48 384
+$rolloff pod/id3		linear	48 384
+$random decoration/pod		{ pod/id1 pod/id2 pod/id3 }				
+pod/id1									podidle1
+pod/id2									podidle2
+pod/id3									podidle3
+decoration/podpain					podpain
+
+decoration/markeramb			dmarker
+$rolloff decoration/markeramb	linear	80 320

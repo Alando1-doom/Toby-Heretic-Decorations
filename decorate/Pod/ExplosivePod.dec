@@ -1,0 +1,14 @@
+ACTOR Pod_Toby : Pod replaces Pod
+{
+	States
+	{
+	Spawn:
+		PPOD A 1 A_PlaySoundEx("decoration/pod", "Auto", 0, 0)
+		PPOD AA 35
+		Loop
+	Pain:
+		PPOD B 1 A_PlaySoundEx("decoration/podpain", "Auto", 0, 0)
+		PPOD B 14 A_PodPain
+		Goto Spawn
+	}
+}

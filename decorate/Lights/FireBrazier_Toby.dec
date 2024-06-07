@@ -1,0 +1,14 @@
+ACTOR FireBrazier_Toby replaces FireBrazier
+{
+	Game Heretic
+	Radius 16
+	Height 44
+	+SOLID
+	States
+	{
+	Spawn:
+		KFR1 A 3 Bright A_PlaySoundEx("decoration/brazier", "SoundSlot5", 1, 0)
+		KFR1 BCDEFGH 3 Bright
+		Loop
+	}
+}

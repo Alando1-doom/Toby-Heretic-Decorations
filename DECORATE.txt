@@ -1,0 +1,13 @@
+//Key Gizmos Directory
+#include decorate/KeyGizmos/BlueKeyGizmo.dec
+#include decorate/KeyGizmos/GreenKeyGizmo.dec
+#include decorate/KeyGizmos/YellowKeyGizmo.dec
+
+//Lights Directory
+#include decorate/Lights/WallTorch_Toby.dec
+#include decorate/Lights/SerpentTorch_Toby.dec
+#include decorate/Lights/FireBrazier_Toby.dec
+#include decorate/Lights/Chandelier_Toby.dec
+
+//Pod Directory
+#include decorate/Pod/ExplosivePod.dec
