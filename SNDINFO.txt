@@ -17,3 +17,5 @@ decoration/podpain					podpain
 
 decoration/markeramb			dmarker
 $rolloff decoration/markeramb	linear	80 320
+
+world/sludgegloop				dsslime
